@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/duvar_kagidi"
+    tools:context=".oyunlar">
+
+    <Button
+        android:id="@+id/konus"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="275dp"
+        android:background="@drawable/buton_arka_plan"
+        android:text="KONUŞARAK ANLAT"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ciz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ciz"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buton_arka_plan"
+        android:text="ÇİZEREK ANLAT"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/sus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/konus" />
+
+    <Button
+        android:id="@+id/sus"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buton_arka_plan"
+        android:text="SUSARAK ANLAT"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/benKimim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ciz" />
+
+    <TextView
+        android:id="@+id/BirinciTakim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="TextView"
+        android:textColor="#BD9518"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/IkinciTakim"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/IkinciTakim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="TextView"
+        android:textColor="#BD9518"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/BirinciTakim"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/benKimim"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buton_arka_plan"
+        android:text="BEN KİMİM"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sus" />
+</androidx.constraintlayout.widget.ConstraintLayout>

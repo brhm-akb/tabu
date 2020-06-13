@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Tabu 3X"

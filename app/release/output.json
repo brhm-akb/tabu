@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.dinihvebrahim.tabu3x",
+  "variantName": "processReleaseResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [
+        {
+          "key": "packageId",
+          "value": "com.dinihvebrahim.tabu3x"
+        },
+        {
+          "key": "split",
+          "value": ""
+        },
+        {
+          "key": "minSdkVersion",
+          "value": "16"
+        }
+      ],
+      "versionCode": 4,
+      "versionName": "2.1",
+      "enabled": true,
+      "outputFile": "app-release.apk"
+    }
+  ]
+}

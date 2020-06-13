@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="arkaPlan">#2C3C98</color>
+    <color name="colorPrimaryDark">#5B71E6</color> //üst bölge
+    <color name="butonRengi">#BF3636</color>
+    <color name="butonRengi2">#C19612</color>
+    <color name="kalan">#BF3636</color>
+    <color name="ATakimi">#C19612</color>
+    <color name="BTakimi">#A3B505</color>
+    <color name="editTextYazisi">#000000</color>
+    <color name="yasakKelimeler">#BF3636</color>
+    <color name="anaKelime">#F44D4D</color>
+    <color name="sure">#CC6565</color>
+    <color name="Durdur">#077785</color>
+    <color name="ikinciArkaPlan">#000000</color>
+    <color name="sure2">#372626</color>
+</resources>

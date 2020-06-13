@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Tabu 3X</string>
+    <string name="Oyuna_Basla">OYUNA BAŞLA</string>
+    <string name="Ayarlar">AYARLAR</string>
+    <string name="Hakkında">HAKKINDA</string>
+    <string name="Magaza">MAĞAZA</string>
+    <string name="A_Takimi">A TAKIMI</string>
+    <string name="B_Takimi">B TAKIMI</string>
+    <string name="Basla">BAŞLA</string>
+    <string name="Menu">MENÜ</string>
+    <string name="Yasak">YASAK</string>
+    <string name="Pas">PAS</string>
+    <string name="Dogru">DOĞRU</string>
+    <string name="Birinci_Yasak_Kelime">Birinci Yasak Kelime</string>
+    <string name="Ikinci_Yasak_Kelime">İkinci Yasak Kelime</string>
+    <string name="Ucuncu_Yasak_Kelime">Ücüncü Yasak Kelime</string>
+    <string name="Dortuncu_Yasak_Kelime">Dörtüncü Yasak Kelime</string>
+    <string name="Besinci_Yasak_Kelime">Beşinci Yasak Kelime</string>
+    <string name="Ana_Kelime">Ana Kelime</string>
+    <string name="Pas_Hakkı">Kalan Pas</string>7
+    <string name="Durdur">DURDUR</string>
+    <string name="Kalan_Sure">Kalan Süre</string>
+    <string name="konus">Konuşarak anlat bölümünü oynamak için en az iki kişiden oluşan iki takım olmak zorundadır.
+        İlk olarak kimin yarışacağını belirledikten sonra anlatıcı ve karşı takımdan bir oyuncu telefonun başına geçer.
+        Anlatıcı "Ana Kelime"yi 5 adet "Yasak Kelime"yi kullanmadan anlatmaya çalışacaktır.
+        Rakip takımın bir oyuncusu ise yasak kelimelerden herhangi birini söylediği vakit "Yasak" butonuna tıklanacak ve 1 puan düşecektir.
+        Eğer konuşmacının takım arkadaşları kelimeyi doğru bilirlerse "Doğru" butonuna basılır ve 1 puan kazanılır, kelimeyi geçmek istiyorlarsa "Pas" butonuna basılır.
+        Her iki takımın sırayla 90 saniyesi ve 3 pas hakkı vardır.
+        Sürenin üzerine basarak oyunu durdurabilirsiniz.
+    </string>
+    <string name="sus">Konuşarak anlat bölümünü oynamak için en az iki kişiden oluşan iki takım olmak zorundadır.
+        İlk olarak kimin yarışacağını belirledikten sonra anlatıcı ve karşı takımdan bir oyuncu telefonun başına geçer.
+        Anlatıcı"Ana Kelime"yi vücut hareketleriyle ve konuşmadan tanlatmaya çalışacaktır.
+        Eğer konuşmacının takım arkadaşları kelimeyi doğru bilirlerse "Doğru" butonuna basılır ve 1 puan kazanılır, kelimeyi geçmek istiyorlarsa "Pas" butonuna basılır.
+        Her iki takımın sırayla 60 saniyesi ve 3 pas hakkı vardır.
+        Sürenin üzerine basarak oyunu durdurabilirsiniz.
+    </string>
+    <string name="benKimim">Ben kimim bölümünde isterseniz en az iki kişiden oluşan iki takım isterseniz de sadece iki kişi birbirinize anlatabilirsiniz.
+        Oyuna başlamadan önce telefonu alnınıza sizin kelimeyi görmeyeceğiniz şekilde koymanız gerekiyor.
+        Telefondan gözükecek olan kelimeyi karşınızdaki takım arkadaşınıza veya tekli oynuyorsanız rakibinize cevabı evet veya hayır olacak sorular sormalısınız.
+        Kelimeyi doğru bilirseniz ses yükseltme tuşuna bir kere basmanız yeterli olacaktır.
+        Bilemez veya pas geçmek isterseniz ses kısma tuşuna bir kere basmanız gerekmektedir.
+        60 saniye içinde istediğiniz kadar soru sorabilirsiniz.
+        Yeter ki cevapları evet veya hayır şeklinde olsun.
+    </string>
+
+</resources>
